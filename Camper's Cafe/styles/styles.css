@@ -1,0 +1,102 @@
+/* body {
+    background-image: url('../Images/Cafe.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    padding: 20px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.menu {
+    width: 80%;
+    max-width: 500px;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px; 
+    
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+article{
+    width: 100%;
+}
+
+article p { 
+    
+    display: inline;
+}
+
+
+.flavor {
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+}
+
+
+ */
+
+
+ body {
+    background-image: url('../Images/Cafe.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    padding: 20px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.menu {
+    width: 80%;
+    max-width: 500px;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+article {
+    width: 100%;
+    overflow: hidden; /* Ensure article contains its children */
+}
+
+article p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.flavor {
+    text-align: left;
+    width: 70%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+}
