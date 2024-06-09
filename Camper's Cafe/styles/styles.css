@@ -1,4 +1,4 @@
-/* body {
+body {
     background-image: url('../Images/Cafe.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,17 +30,18 @@ img {
 
 article{
     width: 100%;
+    overflow: hidden;
 }
 
-article p { 
-    
-    display: inline;
+article p {     
+    display: inline-block;
+    vertical-align: middle;
 }
 
 
 .flavor {
     text-align: left;
-    width: 75%;
+    width: 70%;
 }
 
 .price {
@@ -49,10 +50,10 @@ article p {
 }
 
 
- */
 
+/* 
 
- body {
+body {
     background-image: url('../Images/Cafe.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -83,7 +84,7 @@ img {
 
 article {
     width: 100%;
-    overflow: hidden; /* Ensure article contains its children */
+    overflow: hidden; Ensure article contains its children 
 }
 
 article p {
@@ -99,4 +100,4 @@ article p {
 .price {
     text-align: right;
     width: 25%;
-}
+} */
