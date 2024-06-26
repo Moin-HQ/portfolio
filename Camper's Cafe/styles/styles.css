@@ -4,8 +4,8 @@ body {
     background-size: cover;
     font-family: sans-serif;
     padding: 20px;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 
 .menu {
@@ -22,6 +22,17 @@ h1, h2, p {
     text-align: center;
 }
 
+hr{
+    background-color: brown;
+    height: 5px;
+    border-radius: 100%;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 35px;
+}
+
 img {
     display: block;
     margin-right: auto;
@@ -35,7 +46,7 @@ article{
 
 article p {     
     display: inline-block;
-    vertical-align: middle;
+    /* vertical-align: middle; */
 }
 
 
