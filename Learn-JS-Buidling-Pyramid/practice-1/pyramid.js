@@ -3,9 +3,31 @@ const count = 8;
 const rows = [];
 // console.log(rows[0]);
 
-for(let i = 0; i < count; i = i + 1){
-    rows.push(padRow(i+1, count));
+// if(" "){
+//   else if( 5 > 10){
+//     console.log("I am done")
+//   }
+//    else{ console.log("You are out")}
+  
+// }
+
+// Using a different type of loop
+
+/** for(let i = 1; i <= count; i ++){
+    rows.push(padRow(i, count));
+} **/
+
+// let continueLoop = false;
+let done = 0;
+
+
+
+while(rows.length < count){
+  // done++;  
+  rows.push(padRow( rows.length +  1, count));
 }
+
+
 
 let result = "";
 
