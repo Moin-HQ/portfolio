@@ -16,7 +16,7 @@ let outcome = "";
 
 for(const crime of line){ 
    outcome = outcome + "\n" + crime;
-}
+}   
 
 console.log(outcome);
 

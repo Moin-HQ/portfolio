@@ -1,9 +1,9 @@
 const anime = '#';
 const lane = [];
 const number = 10;
-let inverted = false;
+let inverted = true;
 
-for(let i = 10; i < number; i++){
+for(let i = 1; i < number; i++){
     if(inverted){
         lane.push(kerea(i, number));
     }
@@ -21,7 +21,7 @@ for(const red of lane){
 console.log(trivial);
 
 function kerea(kala , bhuna){
- return " ".repeat(bhuna - kala) + anime.repeat(2 * bhuna - 1) + " ".repeat(bhuna - kala)
+ return " ".repeat(bhuna - kala) + anime.repeat(2 * kala - 1) + " ".repeat(bhuna - kala)
 }
 
 
