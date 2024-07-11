@@ -107,9 +107,9 @@ form {
 
 label {
     font-size: 18px;
+    font-size: 18px;
     display: flex;
     align-items: center;
-    /* justify-content: justify; */
 }
 
 input{
@@ -121,14 +121,27 @@ input{
 
 .input{
     width: 100%;
+    display: flex;
+    align-items: center;
     
 }
+
+.checkbox-label{
+    margin-left: 5px;
+}
+
+#data{
+    width: 100%;
+    height: 2.375rem;
+}
+
 
 .dropdowns{
     text-transform: capitalize;
 }
 
 select{
+    height: 2.375rem;
     padding: 6px 12px;
     width: 100%;
     border-radius: 0.35rem;
@@ -136,11 +149,48 @@ select{
 }
 
 .checker-options{
-    text-align: left;
+    text-align: left; 
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: 1.25rem;
 }
 
 #Checker-block p, span{
     display: inline-block;
+    margin-bottom: 0;
+
 }
 
+.section-header{
+    margin-bottom: 1px;
+}
 
+ul{
+    text-decoration: none;
+}
+
+#text{
+    min-height: 120px;
+    width: 100%;
+    resize: vertical;
+    padding: 0.25rem;
+    margin-bottom: 1.5rem;
+    box-sizing: border-box;
+}
+
+.last-container{
+    width: 100%;
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    background: #37af65;
+    padding: 11px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: capitalize;
+}

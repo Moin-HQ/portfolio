@@ -33,26 +33,60 @@
                         current role?</label></div>
                 <div class="input"><select name="Option" id="Option">
                         <option disabled selected value>Select an option</option>
-                        <option value="challenges" class="dropdowns">challenges</option>
-                        <option value="project" class="dropdowns">project</option>
-                        <option value="community" class="dropdowns">community</option>
-                        <option value="open source" class="dropdowns">open source</option>
+                        <option value="Studen" class="dropdowns">Student</option>
+                        <option value="Full Time Job" class="dropdowns">Full Time Job</option>
+                        <option value="Part Time Job" class="dropdowns">Part Time Job</option>
+                        <option value="Prefer not to say" class="dropdowns">Prefer not to say</option>
+                        <option value="Other" class="dropdowns">Other</option>
                     </select></div>
             </div>
             <div id="Checker-block" class="checker-options poppins-regular">
-                <p>What would you like to see improved?</p>
-                <span>(Check all that apply)</span>
-                <label><input value="Front-end Projects" type="checkbox" class="input-checkbox">Front-end Projects</label>
-                <label><input value="Back-end Projects" type="checkbox" class="input-checkbox">Back-end Projects</label>
-                <label><input value="Data Visualization" type="checkbox" class="input-checkbox">Data Visualization</label>
-                <label><input value="Challenges" type="checkbox" class="input-checkbox">Challenges</label>
-                <label><input value="Open Source Community" type="checkbox" class="input-checkbox">Open Source Community</label>
-                <label><input value="Gitter help rooms" type="checkbox" class="input-checkbox">Gitter help rooms</label>
-                <label><input value="Videos" type="checkbox" class="input-checkbox">Videos</label>
-                <label><input value="City Meetups" type="checkbox" class="input-checkbox">City Meetups</label>
-                <label><input value="Wiki" type="checkbox" class="input-checkbox">Wiki</label>
-                <label><input value="Forum" type="checkbox" class="input-checkbox">Forum</label>
-                <label><input value="Additional Courses" type="checkbox" class="input-checkbox">Additional Courses </label>
+                <p>Would you recomment freeCodeCamp to a friend?</p>
+                <label><input type="radio" name="group-1" value="Definitely" id="Definitely"><span class="checkbox-label">Definitely</span></label>
+                <label><input type="radio" name="group-1" value="Maybe" id="Maybe"><span class="checkbox-label">Maybe</span></label>
+                <label><input type="radio" name="group-1" value="Not sure" id="Not sure"><span class="checkbox-label">Not sure</span></label>
+            </div>
+
+            <div class="label">
+                <label for="data" class="info poppins-regular">What is your favorite feature of freeCodeCamp?</label>
+            </div>
+
+            <div class="input ">
+                <select name="Option" id="Option">
+                    <option disabled selected value>Select an option</option>
+                    <option value="challenges" class="dropdowns">challenges</option>
+                    <option value="project" class="dropdowns">project</option>
+                    <option value="community" class="dropdowns">community</option>
+                    <option value="open source" class="dropdowns">open source</option>
+                </select>
+            </div>
+
+            <div id="Checker-block" class="checker-options poppins-regular">
+                <div class="section-header">
+                    <p>What would you like to see improved?</p>
+                    <span style="font-size: 14px;">(Check all that apply)</span>
+                </div>
+                <label><input value="Front-end Projects" type="checkbox" class="input-checkbox"><span class="checkbox-label">Front-end Projects</span></label>
+                <label><input value="Back-end Projects" type="checkbox" class="input-checkbox"><span class="checkbox-label">Back-end Projects</span></label>
+                <label><input value="Data Visualization" type="checkbox" class="input-checkbox"><span class="checkbox-label">Data Visualization</span></label>
+                <label><input value="Challenges" type="checkbox" class="input-checkbox"><span class="checkbox-label">Challenges</span></label>
+                <label><input value="Open Source Community" type="checkbox" class="input-checkbox"><span class="checkbox-label">Open Source Community</span></label>
+                <label><input value="Gitter help rooms" type="checkbox" class="input-checkbox"><span class="checkbox-label">Gitter help rooms</span></label>
+                <label><input value="Videos" type="checkbox" class="input-checkbox"><span class="checkbox-label">Videos</span></label>
+                <label><input value="City Meetups" type="checkbox" class="input-checkbox"><span class="checkbox-label">City Meetups</span></label>
+                <label><input value="Wiki" type="checkbox" class="input-checkbox"><span class="checkbox-label">Wiki</span></label>
+                <label><input value="Forum" type="checkbox" class="input-checkbox"><span class="checkbox-label">Forum</span></label>
+                <label><input value="Additional Courses" type="checkbox" class="input-checkbox"><span class="checkbox-label">Additional Courses</span></label>
+            </div>
+
+            <div class="last-container">
+                <label for="Any Comments or Suggestions?" class="poppins-regular" style="margin-bottom: 0.5rem;">Any
+                    Comments or
+                    Suggestions?</label>
+                <textarea name="Comment" id="text" placeholder="Enter your comment here..."></textarea>
+            </div>
+            <div class="last-container">
+                <button class="btn poppins-regular">submit</button>
             </div>
 
         </form>
