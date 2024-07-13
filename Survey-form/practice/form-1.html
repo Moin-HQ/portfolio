@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>freeCodeCamp Survey Form</title>
+    <link rel="stylesheet" href="style-1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="everything">
+        <header>
+            <h1 id="title" class="poppins-regular">freeCodeCamp Survey Form</h1>
+            <p id="description" class="poppins-extralight-italic">Thank you for taking the time to help us improve the
+                platform</p>
+        </header>
+        <form action="" id="survey-form">
+            <div class="label-group">
+                <div class="label poppins-regular "><label for="" id="name-label">Name</label></div>
+                <div class="input"><input type="text" id="name" placeholder="Enter your name"></div>
+            </div>
+            <div class="label-group">
+                <div class="label poppins-regular "><label for="" id="email-label">Email</label></div>
+                <div class="input"><input type="text" id="Email" placeholder="Enter your Email"></div>
+            </div>
+            <div class="label-group">
+                <div class="label poppins-regular "><label for="" id="number-label">Age <span
+                            class="clue">(optional)</span></label></div>
+                <div class="input"><input type="number" id="number" min="15" max="85" placeholder="Age"></div>
+            </div>
+            <div class="label-group">
+                <div class="label poppins-regular"><p class=info>Which option best describes your current role?</p></div>
+                <div class="input">
+                    <select name="option" id="dropdown">
+                        <option disabled selected value>Select an option</option>
+                        <option value="Student">Student</option>
+                        <option value="Full Time Job">Full Time Job</option>
+                        <option value="Full Time Learner">Full Time Learner</option>
+                        <option value="Prefer not to say">Prefer not to say</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>                
+            </div>
+            <div id="Stack" class="checker-group poppins-regular">
+                <p class="poppins-regular">Would you recommend freeCodeCamp to a friend?</p>
+                <label><input type="radio" name="group-1"><span class="checkbox-label">Definitely</span></label>
+                <label><input type="radio" name="group-1"><span class="checkbox-label"> Maybe</span></label>
+                <label><input type="radio" name="group-1"><span class="checkbox-label"> Not Sure</span></label>
+            </div>
+            <div class="label-group">
+                <div class="label poppins-regular">
+                    <p class="info poppins-regular">What is your favorite feature of freeCodeCamp?</p>
+                </div>
+                <div class="input">
+                    <select name="option" id="dropdown">
+                        <option disabled selected value>Select an option</option>
+                        <option value="Challenges">Challenges</option>
+                        <option value="Projects">Projects</option>
+                        <option value="Community">Community</option>
+                        <option value="Opensource">Opensource</option>
+                    </select>
+                </div>
+            </div>
+            <div class="checker-group poppins-regular" id="stack">
+                <p class="info">What would you like to see improved? (Check all that apply)</p>
+               <label><input type="checkbox" value="Front-end Projects"><span>Front-end Projects</span></label>
+               <label><input type="checkbox" value="Back-end Projects"><span>Back-end Projects</span></label>
+               <label><input type="checkbox" value="Data Visualization"><span>Data Visualization</span></label>
+               <label><input type="checkbox" value="Challenges"><span>Challenges</span></label>
+               <label><input type="checkbox" value="Open Source Community"><span>Open Source Community</span></label>
+               <label><input type="checkbox" value="Gitter help rooms"><span>Gitter help rooms</span></label>
+               <label><input type="checkbox" value="Videos"><span>Videos</span></label>
+               <label><input type="checkbox" value="City Meetups"><span>City Meetups</span></label>
+               <label><input type="checkbox" value="Wiki"><span>Wiki</span></label>
+               <label><input type="checkbox" value="Forum"><span>Forum</span></label>
+               <label><input type="checkbox" value="Additional Courses"><span>Additional Courses</span></label>
+            </div>
+
+            <div class="label">
+                <p class="info poppins-regular">Any comments or suggestions?</p>
+                <textarea name="" id="text" placeholder="Enter your comment here..."></textarea>
+            </div>
+            <div>
+                <button class="btn poppins-regular">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

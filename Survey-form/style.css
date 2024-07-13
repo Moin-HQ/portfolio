@@ -174,9 +174,10 @@ ul{
     min-height: 120px;
     width: 100%;
     resize: vertical;
-    padding: 0.25rem;
+    padding: 10px;
     margin-bottom: 1.5rem;
     box-sizing: border-box;
+    border: none;
 }
 
 .last-container{
